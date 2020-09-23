@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="containers">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button> -->
+
+            <a class="navbar-brand" href="tictac.html">TicTacToe</a>
+            <a class="navbar-brand" href="blackjack.html">Blackjack</a>
+        </nav>
+        <div class="container-5">
+
+            <h2> Challenge 5 : Blackjack</h2>
+
+            <h3><span id="blackjack-result"> Lets Play </span></h3>
+            <div class="flex-box-blackjack-row1">
+
+                <div id='player-board' class="">
+                    <h2> You: <span id='your-blackjack-result'>0</span></h2>
+                </div>
+                <div id='dealer-board'>
+                    <h2> Dealer: <span id='dealer-blackjack-result'>0</span></h2>
+                </div>
+
+            </div>
+            <div class="flex-box-blackjack-row2">
+                <div class="black-jack-buttons">
+                    <button class='btn-lg btn-primary mr-2' id='blackjack-hit-btn'>Hit</button>
+                    <button class='btn-lg btn-secondary mr-2' id='blackjack-stand-btn'>Stand</button>
+                    <button class='btn-lg btn-danger' id='blackjack-deal-btn'>Deal</button>
+
+                </div>
+            </div>
+            <div class="flex-blackjack-row3">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td><span id="wins">0</span></td>
+                        <td><span id="losses">0</span></td>
+                        <td><span id="draws">0</span></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="tictactoe.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="blackjack.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
